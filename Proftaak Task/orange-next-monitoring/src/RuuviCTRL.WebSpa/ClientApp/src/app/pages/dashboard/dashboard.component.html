@@ -1,0 +1,16 @@
+
+<div class="alert alert-danger mb-5 p-5" role="alert" [hidden]="isShow" *ngFor="let item of Notifications | async">
+    <div class="alert-close">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" (click)="deleteNotification()">
+            <span aria-hidden="true"><i class="ki ki-close"></i></span>
+        </button>
+    </div>
+    <h4 class="alert-heading">[{{item.createdAt | date:'short'}}] {{item.title}}</h4>
+    <p>{{item.description}}</p>
+</div>
+
+<div class="row">
+    <app-dashboard-map class="col-lg-4 col-md-6 col-xs-12 order-1 order-md-0" [assetData]="Data"></app-dashboard-map>
+
+    <app-dashboard-table class="col-lg-8 col-md-6 col-xs-12 order-0 order-md-1" [assetData]="Data" [(searchInput)]="assetSearch" [searchingAsset]="loadingAssets" (searchInputChange)="searchAssets()"></app-dashboard-table>
+</div>

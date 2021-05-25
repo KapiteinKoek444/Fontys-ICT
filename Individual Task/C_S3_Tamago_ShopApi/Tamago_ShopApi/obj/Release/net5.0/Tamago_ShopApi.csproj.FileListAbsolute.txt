@@ -1,0 +1,6 @@
+C:\Users\Pouki\Documents\#Rep_C#\S3_Tamagotchi_Project\Tamago_ShopApi\Tamago_ShopApi\obj\Release\net5.0\Tamago_ShopApi.csprojAssemblyReference.cache
+C:\Users\Pouki\Documents\#Rep_C#\S3_Tamagotchi_Project\Tamago_ShopApi\Tamago_ShopApi\obj\Release\net5.0\Tamago_ShopApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pouki\Documents\#Rep_C#\S3_Tamagotchi_Project\Tamago_ShopApi\Tamago_ShopApi\obj\Release\net5.0\Tamago_ShopApi.AssemblyInfoInputs.cache
+C:\Users\Pouki\Documents\#Rep_C#\S3_Tamagotchi_Project\Tamago_ShopApi\Tamago_ShopApi\obj\Release\net5.0\Tamago_ShopApi.AssemblyInfo.cs
+C:\Users\Pouki\Documents\#Rep_C#\S3_Tamagotchi_Project\Tamago_ShopApi\Tamago_ShopApi\obj\Release\net5.0\Tamago_ShopApi.csproj.CoreCompileInputs.cache
+C:\Users\Pouki\Documents\#Rep_C#\S3_Tamagotchi_Project\Tamago_ShopApi\Tamago_ShopApi\obj\Release\net5.0\Tamago_ShopApi.MvcApplicationPartsAssemblyInfo.cache
