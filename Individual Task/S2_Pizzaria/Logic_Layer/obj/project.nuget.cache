@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6GLIDl3kNbe/goyfIM6Gwj91gU5hF8tljexFSfC75VB9USjMp6xheM517NuXcE65yov64uf8ifOCS0PfSMjuqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pouki\\Documents\\GitHub\\Semester2\\Asp.Net\\S2_Pizzaria\\Logic_Layer\\Logic_Layer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pouki\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Pouki\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

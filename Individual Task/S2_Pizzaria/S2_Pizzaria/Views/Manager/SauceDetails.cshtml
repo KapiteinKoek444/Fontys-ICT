@@ -1,0 +1,41 @@
+﻿@model BusinessLogic.Models.IngredientComponents.SauceModel
+
+@{
+	ViewBag.Title = "SauceDetails";
+}
+
+<h2>SauceDetails</h2>
+
+<div>
+	<h4>SauceModel</h4>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.Name)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Name)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.IsSpicy)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.IsSpicy)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Price)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Price)
+		</dd>
+
+	</dl>
+</div>
+<p>
+	@Html.ActionLink("Back to List", "ManageSauces")
+</p>

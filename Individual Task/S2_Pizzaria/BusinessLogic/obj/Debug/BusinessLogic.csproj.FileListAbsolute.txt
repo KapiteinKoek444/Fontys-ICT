@@ -1,0 +1,15 @@
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\Repository.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\Repository.pdb
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\Repository.dll.config
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

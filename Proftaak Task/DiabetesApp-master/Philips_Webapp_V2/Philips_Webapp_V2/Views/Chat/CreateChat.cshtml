@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "CreateChat";
+}
+
+@using BusinessLogic.ExtensionMethods;
+
+
+<input type="button" id="button" value="generate" />
+<hr />
+Password: <span id="password"></span>
+<br />
+<hr />
+<input type="button" value="Refresh" onclick="location.href='@Url.Action("CreateChat", "Chat")'" />
+<br />
+<br />
+<input type="button" value="Submit" onclick="location.href='@Url.Action("ChatV2", "Chat")'" />
+
+@section Scripts
+{
+    <script type="text/javascript">
+         document.addEventListener("DOMContentLoaded", function () {
+            var button = document.getElementById('button');
+            button.addEventListener('click', function () {
+				var hashValue = "@Hash()";
+				document.getElementById("password").innerHTML = hashValue
+             });
+        });
+    </script>
+}
+@{
+
+    string Hash()
+    {
+        string randomString = SecurePasswordHasher.RandomString(10);
+        string hash = SecurePasswordHasher.Hash(randomString);
+        return hash;
+    }
+}

@@ -1,0 +1,4 @@
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\ClassTest\bin\Debug\netstandard2.0\ClassTest.deps.json
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\ClassTest\bin\Debug\netstandard2.0\ClassTest.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\ClassTest\obj\Debug\netstandard2.0\ClassTest.AssemblyInfoInputs.cache
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\ClassTest\obj\Debug\netstandard2.0\ClassTest.AssemblyInfo.cs

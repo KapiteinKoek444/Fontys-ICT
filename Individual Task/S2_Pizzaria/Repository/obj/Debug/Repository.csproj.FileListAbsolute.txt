@@ -1,0 +1,14 @@
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\Repository.dll.config
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\Repository.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\Repository.pdb
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.dll
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.pdb
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.Migrations.UpdateDatabase.resources
+C:\Users\Pouki\Documents\GitHub\Semester2\Asp.Net\S2_Pizzaria\Repository\obj\Debug\Repository.csproj.GenerateResource.cache

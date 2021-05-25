@@ -1,0 +1,142 @@
+﻿@model BusinessLogic.Models.ViewModels.OrderViewModel
+
+@{
+    ViewBag.Title = "AddOrder";
+}
+
+<div>
+    <h4>Order : </h4>
+    <hr />
+	<dl class="dl-horizontal">
+		Pizza:
+		<dt>
+			@Html.DisplayNameFor(model => model.pizza.Name)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.pizza.Name)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.pizza.Price)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.pizza.Price)
+		</dd>
+
+		Bottom:
+		<dt>
+			@Html.DisplayNameFor(model => model.bottom.Name)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.bottom.Name)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.bottom.Price)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.bottom.Price)
+		</dd>
+		Sauce:
+
+		<dt>
+			@Html.DisplayNameFor(model => model.sauce.Name)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.sauce.Name)
+		</dd>
+		<dt>
+			@Html.DisplayNameFor(model => model.sauce.IsSpicy)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.sauce.IsSpicy)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.sauce.Price)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.sauce.Price)
+		</dd>
+
+
+		Ingredients:
+		@foreach (var ingr in Model.ingredients)
+		{
+			<dt>
+				@Html.DisplayNameFor(model => ingr.Name)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.Name)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => ingr.Price)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.Price)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => ingr.SpicyGrade)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.SpicyGrade)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => ingr.IsVegetarian)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.IsVegetarian)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => ingr.IsVegan)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.IsVegan)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => ingr.IsHalal)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.IsHalal)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => ingr.ContainsLactose)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => ingr.ContainsLactose)
+			</dd>
+
+		}
+		
+
+		<dt>
+			@Html.DisplayNameFor(model => model.TotalPrice)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.TotalPrice)
+		</dd>
+
+	</dl>
+	@Html.ActionLink("Order" ,"OrderOrder")
+</div>

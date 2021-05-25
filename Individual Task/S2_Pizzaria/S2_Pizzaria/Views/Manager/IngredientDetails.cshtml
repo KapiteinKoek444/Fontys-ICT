@@ -1,0 +1,73 @@
+﻿@model BusinessLogic.Models.IngredientComponents.IngredientModel
+
+@{
+    ViewBag.Title = "IngredientDetails";
+}
+
+<h2>IngredientDetails</h2>
+
+<div>
+    <h4>IngredientModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SpicyGrade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SpicyGrade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsVegetarian)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsVegetarian)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsVegan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsVegan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsHalal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsHalal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContainsLactose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContainsLactose)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "ManageIngredients")
+</p>

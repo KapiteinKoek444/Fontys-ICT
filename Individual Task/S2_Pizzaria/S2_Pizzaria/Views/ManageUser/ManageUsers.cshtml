@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BusinessLogic.Models.UserModel>
+
+@{
+    ViewBag.Title = "ManageUsers";
+}
+
+<h2>ManageUsers</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddUser")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HouseNr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsEmployee)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ZipCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HouseNr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsEmployee)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "UserDetails", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "UserDelete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

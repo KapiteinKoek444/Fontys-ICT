@@ -1,0 +1,40 @@
+﻿@model IEnumerable<BusinessLogic.Models.IngredientComponents.SauceModel>
+
+@{
+    ViewBag.Title = "SaucePicker";
+}
+
+<h2>SaucePicker</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsSpicy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsSpicy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+		<td>
+			@Html.ActionLink("Choose", "PickedSauce", new { id = item.Id }) |
+		</td>
+    </tr>
+}
+
+</table>

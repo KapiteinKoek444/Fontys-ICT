@@ -1,0 +1,68 @@
+﻿@model IEnumerable<BusinessLogic.Models.IngredientComponents.IngredientModel>
+
+@{
+    ViewBag.Title = "ManageIngredients";
+}
+
+<h2>ManageIngredients</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddIngredient")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpicyGrade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsVegetarian)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsVegan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsHalal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContainsLactose)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SpicyGrade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsVegetarian)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsVegan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsHalal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContainsLactose)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "IngredientDetails", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "IngredientDelete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

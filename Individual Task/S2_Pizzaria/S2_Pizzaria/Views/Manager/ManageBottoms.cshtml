@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BusinessLogic.Models.IngredientComponents.BottomModel>
+
+@{
+    ViewBag.Title = "ManageBottoms";
+}
+
+<h2>ManageBottoms</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddBottom")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Surface)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Thick)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surface)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thick)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "BottomDetails", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "BottomDelete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
